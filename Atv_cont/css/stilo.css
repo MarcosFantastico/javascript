@@ -1,0 +1,58 @@
+
+body{
+
+    background-color:rgb(40, 208, 214);
+    font: normal 12pt Arial;
+    text-align: center;
+    color:white
+}
+header{
+
+}
+section{
+    text-align: left;
+    padding:20px;
+    background-color: whitesmoke;
+    color:rgb(31, 156, 160);
+    border-radius:  10px;
+    margin:auto;
+
+    width: auto;
+    max-width: 400px;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+}
+footer{
+    text-align: center;
+    font-style: italic;
+
+}
+
+
+input
+{
+display:flex;
+margin-right:auto;
+margin-bottom:15px;
+border-radius: 15px;
+outline: none
+}
+
+input[type="number"]
+{
+border-style: none;
+border-bottom:solid green;
+background-color: transparent;
+width:100%;
+padding-bottom: 2px;
+}
+input[type="submit"]
+{
+cursor: pointer;
+margin:auto
+}
+
+div p 
+{
+font-size: 15pt;
+}

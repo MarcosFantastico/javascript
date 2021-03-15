@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stilo.css">
+</head>
+<body id="corpo">
+
+    <header>
+<h1>Analisador de números</h1>
+    </header>
+
+    <section>
+        <label for="numero">Digite um número entre 1 e 100</label>
+        <input type="number" id="numero">
+
+        <input type="submit" value="Adicionar" onclick="adicionar()">
+
+        <div>
+            
+            <select name="tabuada" id="lista" size="10">
+                <option value="" id="option">Digite um número acima</option>
+            </select>
+        </div>
+        <br>
+        <div>
+        <input type="submit" value="Analisar" id="anali" onclick="analisar()">
+        <input type="submit" value="Limpar" id="limp" onclick="limpar()">
+        <p id="res"></p>
+        </div>
+    </section>
+
+    <footer>
+<p>&copy; Marcao</p>
+    </footer>
+    <script src="js/func.js"></script>
+</body>
+</html>
